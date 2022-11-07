@@ -1,0 +1,101 @@
+{
+  "1": {
+    "data_module": [],
+    "data_source": [],
+    "channel": [],
+    "pm": [
+      {
+        "id": 1,
+        "description": "C1",
+        "pos_in_matrix": 1,
+        "matrix_id": 1
+      },
+      {
+        "id": 2,
+        "description": "C2",
+        "pos_in_matrix": 2,
+        "matrix_id": 1
+      },
+      {
+        "id": 3,
+        "description": "C3",
+        "pos_in_matrix": 1,
+        "matrix_id": 2
+      },
+      {
+        "id": 4,
+        "description": "C4",
+        "pos_in_matrix": 2,
+        "matrix_id": 2
+      }
+    ],
+    "matrix": [
+      {
+        "id": 1,
+        "side": "A",
+        "scin_id": 1
+      },
+      {
+        "id": 2,
+        "side": "B",
+        "scin_id": 2
+      }
+    ],
+    "scin": [
+      {
+        "id": 1,
+        "length": 1,
+        "width": 2,
+        "height": 3,
+        "xcenter": 4,
+        "ycenter": 5,
+        "zcenter": 6,
+        "rot_x": 7,
+        "rot_y": 8,
+        "rot_z": 9,
+        "slot_id": 1
+      },
+      {
+        "id": 2,
+        "length": 1,
+        "width": 2,
+        "height": 3,
+        "xcenter": 4,
+        "ycenter": 5,
+        "zcenter": 6,
+        "rot_x": 7,
+        "rot_y": 8,
+        "rot_z": 9,
+        "slot_id": 2
+      }
+    ],
+    "slot": [
+      {
+        "id": 1,
+        "theta": 1,
+        "type": "module",
+        "layer_id": 1
+      },
+      {
+        "id": 2,
+        "theta": 1,
+        "type": "module",
+        "layer_id": 1
+      }
+    ],
+    "layer": [
+      {
+        "id": 1,
+        "name": "Panda",
+        "radius": 1.0,
+        "setup_id": 1
+      }
+    ],
+    "setup": [
+      {
+        "id": 1,
+        "description": "OscillationOfForgotten"
+      }
+    ]
+  }
+}

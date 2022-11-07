@@ -1,0 +1,12 @@
+{
+    "test":
+    {
+        "location": "noexistent",
+        "collimator":
+        [
+            {
+                "positions": "0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "1": {
+        "scintillators": [
+            {
+                "id": "12",
+                "attenuation_length": "0",
+                "length": "0",
+                "width": "0",
+                "height": "0",
+                "barrelSlots_id": "3"
+            },
+            {
+                "id": "32",
+                "attenuation_length": "0",
+                "length": "0",
+                "width": "0",
+                "height": "0",
+                "barrelSlots_id": "1"
+            }
+        ],
+        "PMs": [
+            {
+                "id": "3",
+                "is_right_side": "false",
+                "description": "C2",
+                "barrelSlots_id": "1",
+                "scintillators_id": "32"
+            },
+            {
+                "id": "32",
+                "is_right_side": "false",
+                "description": "C1",
+                "barrelSlots_id": "3",
+                "scintillators_id": "12"
+            },
+            {
+                "id": "42",
+                "is_right_side": "true",
+                "description": "C3",
+                "barrelSlots_id": "3",
+                "scintillators_id": "12"
+            },
+            {
+                "id": "98",
+                "is_right_side": "true",
+                "description": "C4",
+                "barrelSlots_id": "1",
+                "scintillators_id": "32"
+            }
+        ],
+        "PMCalibs": "",
+        "barrelSlots": [
+            {
+                "id": "1",
+                "active": "false",
+                "name": "",
+                "theta1": "-1",
+                "frame_id": "-1"
+            },
+            {
+                "id": "3",
+                "active": "false",
+                "name": "",
+                "theta1": "-1",
+                "frame_id": "-1"
+            }
+        ],
+        "layers": "",
+        "frames": "",
+        "FEBs": "",
+        "TRBs": "",
+        "TOMBChannels": ""
+    }
+}

@@ -1,0 +1,82 @@
+{
+	"1":{
+		"data_module":[
+			{
+        "id": 1,
+        "type": "LATTICE_TDC",
+        "trbnet_address": "e044",
+        "channels_number": 65,
+        "channels_offset": 2080,
+        "data_source_id": 1
+      }
+		],
+		"data_source":[
+			{
+        "id": 1,
+        "type": "TRB3_S",
+        "trbnet_address": "8040",
+        "hub_address": "8040"
+      }
+		],
+		"channel":[
+			{
+			  "id":1,
+			  "thr_num":1,
+				"thr_val":120.0,
+				"pm_id":1
+			}
+		],
+		"pm":[
+			{
+				"id":1,
+				"description":"no description",
+				"pos_in_matrix":1,
+				"matrix_id":1
+			}
+		],
+		"matrix":[
+			{
+				"id":1,
+				"side":"B",
+				"scin_id":1
+			}
+		],		
+		"scin":[
+			{
+				"id":1,
+				"length":1.0,
+				"width":2.0,
+				"height":3.0,
+				"xcenter":4.0,
+				"ycenter":5.0,
+				"zcenter":6.0,
+				"rot_x":7.0,
+				"rot_y":8.0,
+				"rot_z":9.0,
+				"slot_id":1
+			}
+		],
+		"slot":[
+			{
+				"id":1,
+				"theta":1.0,
+				"type":"module",
+				"layer_id":1
+			}
+		],
+		"layer":[
+			{
+				"id":1,
+				"name":"Krzesimir",
+				"radius":1.0,
+				"setup_id":1
+			}
+		],
+		"setup":[
+			{
+				"id":1,
+				"description":"Tamriel"
+			}
+		]
+	}
+}

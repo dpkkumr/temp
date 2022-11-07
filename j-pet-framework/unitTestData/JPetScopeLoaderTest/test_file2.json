@@ -1,0 +1,12 @@
+{
+    "test":
+    {
+        "location": "scope_files2",
+        "collimator":
+        [
+            {
+                "positions": "0 1" 
+            }
+        ]
+    }
+}

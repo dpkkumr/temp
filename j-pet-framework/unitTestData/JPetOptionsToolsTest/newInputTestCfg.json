@@ -1,0 +1,11 @@
+{
+ "myOption_std::string":"great",
+ "myAnotherOption_std::string":"wat",
+ "NumberOption_std::string":"12.2",
+ "intOption_int" : 123,
+ "boolOption_bool": true,
+ "vectorOfStringOtption_std::vector<std::string>" : ["firstOption","secondOption", "thirdOption"],
+ "vectorOfIntOption_std::vector<int>" : [1, 2, 3],
+ "cos":1,
+ "cos_inn":3
+}
